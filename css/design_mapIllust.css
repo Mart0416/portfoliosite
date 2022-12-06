@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #f7f6f5;
+    font-size: 16px;
+    font-family: 'Noto Serif JP', "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    color: #333;
+}
+.header_title {
+    padding: 30px 0;
+    background-color: #eee;
+}
+.header_title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+h2 {
+    margin: 80px 0 100px 0;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+.images_wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+.images_wrap img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.concept {
+    margin-top: 100px;
+}
+.concept_etc_wrap {
+    margin: 100px 0 40px 0;
+    text-align: center;
+}
+.concept_etc_wrap .concept_etc {
+    padding-bottom: 60px;
+}
+.concept_etc_wrap dt {
+    width: 20rem;
+    padding: 8px 0;
+    margin: 0 auto;
+    background-color: #eee;
+    border: #afafb0 1px solid;
+    border-radius: 5px;
+}
+.concept_etc_wrap dd {
+    margin-top: 20px;
+}
+footer {
+    background-color: #eee;
+}
+footer p {
+    padding: 20px 0;
+    text-align: center;
+}
+/* レスポンシブ */
+@media screen and (max-width: 768px) {
+    .header_title h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        margin: 60px 0;
+        font-size: 1.5rem;
+    }
+    .images_wrap img {
+        height: 370px;
+    }
+    .concept_etc_wrap {
+        margin-top: 70px;
+    }
+}
+/* 768px */
+
+@media screen and (max-width: 600px) {
+    h2 {
+        margin-bottom: 40px;
+    }
+}
+/* 600px */
+
+@media screen and (max-width: 500px) {
+    .images_wrap img {
+        height: 300px;
+    }
+}
+/* 500px */
+
+@media screen and (max-width: 430px) {
+    .images_wrap img {
+        height: 260px;
+    }
+}
+/* 430px */
+
+@media screen and (max-width: 390px) {
+    h2 {
+        margin-bottom: 20px;
+    }
+}
+/* 390px */

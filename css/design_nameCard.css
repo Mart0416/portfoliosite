@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #f7f6f5;
+    font-size: 16px;
+    font-family: 'Noto Serif JP', "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    color: #333;
+}
+.header_title {
+    padding: 30px 0;
+    background-color: #eee;
+}
+.header_title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+h2 {
+    margin: 80px 0 100px 0;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.images_wrap {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.nameCard1 h3 {
+    width: 4rem;
+    margin: 0 auto 7.5%;
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+    border-bottom: #afafb0 2px solid;
+}
+.nameCard1 img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.nameCard2 img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.nameCard2 h3 {
+    width: 4rem;
+    margin: 7.5% auto;
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+    border-bottom: #afafb0 2px solid;
+}
+.concept {
+    margin-top: 100px;
+}
+.concept .concept_title {
+    width: 20rem;
+    padding: 8px 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #eee;
+    border: #afafb0 1px solid;
+    border-radius: 5px;
+}
+.concept .concept_desc1 {
+    margin-top: 20px;
+    text-align: center;
+}
+.concept .concept_desc2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.uesd_etc_wrap {
+    margin: 60px 0 40px 0;
+    text-align: center;
+}
+.uesd_etc_wrap .uesd_etc {
+    padding-bottom: 60px;
+}
+.uesd_etc_wrap dt {
+    width: 20rem;
+    padding: 8px 0;
+    margin: 0 auto;
+    background-color: #eee;
+    border: #afafb0 1px solid;
+    border-radius: 5px;
+}
+.uesd_etc_wrap dd {
+    margin-top: 20px;
+}
+footer {
+    background-color: #eee;
+}
+footer p {
+    padding: 20px 0;
+    text-align: center;
+}
+/* レスポンシブ */
+@media screen and (max-width: 768px) {
+    .header_title h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        margin: 60px 0 80px 0;
+        font-size: 1.5rem;
+    }
+    .nameCard1 img {
+        margin-bottom: 100px;
+        height: 430px;
+    }
+    .nameCard2 img {
+        height: 430px;
+    }
+}
+/* 768px */
+
+@media screen and (max-width: 600px) {
+    h2 {
+        margin-bottom: 70px;
+    }
+    .nameCard1 img {
+        height: 340px;
+    }
+    .nameCard2 img {
+        height: 340px;
+    }
+}
+/* 600px */
+
+@media screen and (max-width: 430px) {
+    h2 {
+        margin-bottom: 50px;
+    }
+    .nameCard1 img {
+        height: 240px;
+    }
+    .nameCard1 h3 {
+        font-size: 1.1rem;
+    }
+    .nameCard2 img {
+        height: 240px;
+    }
+    .nameCard2 h3 {
+        font-size: 1.1rem;
+    }
+}
+/* 430px */

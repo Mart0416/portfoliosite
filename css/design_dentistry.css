@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #f7f6f5;
+    font-size: 16px;
+    font-family: 'Noto Serif JP', "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    color: #333;
+}
+.header_title {
+    padding: 30px 0;
+    background-color: #eee;
+}
+.header_title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+h2 {
+    margin: 80px 0 100px 0;
+    font-size: 2rem;
+    text-align: center;
+}
+.flex_wrap {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.img_wrap {
+    width: 100%;
+}
+.img_wrap img {
+    width: 100%;
+    height: 1000px;
+    object-fit: contain;
+}
+.desc_wrap {
+    margin: 0 10%;
+}
+.desc_wrap dt {
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.desc_wrap dd {
+    margin-bottom: 100px;
+}
+.desc_wrap .desc2 {
+    margin-top: -80px;
+}
+.uesd_etc_wrap {
+    margin: 100px 0 40px 0;
+    text-align: center;
+}
+.uesd_etc_wrap .uesd_etc {
+    padding-bottom: 60px;
+}
+.uesd_etc_wrap dt {
+    width: 20rem;
+    padding: 8px 0;
+    margin: 0 auto;
+    background-color: #eee;
+    border: #afafb0 1px solid;
+    border-radius: 5px;
+}
+.uesd_etc_wrap dd {
+    margin-top: 20px;
+}
+footer {
+    background-color: #eee;
+}
+footer p {
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 1200px) {
+    .desc_wrap {
+        margin: 0;
+    }
+}
+/* 1200px */
+
+@media screen and (max-width: 768px) {
+    .header_title h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .flex_wrap {
+        padding: 0 5%;
+    }
+}
+/* 768px */
+
+@media screen and (max-width: 650px) {
+    h2 {
+        margin-top: 60px;
+        margin-bottom: 70px;
+    }
+    .flex_wrap {
+        display: block;
+    }
+    .desc_wrap {
+        margin-top: 80px;
+        padding: 0 10%;
+    }
+    .uesd_etc_wrap {
+        margin-top: 80px;
+    }
+}
+/* 650px */
+
+@media screen and (max-width: 430px) {
+    .desc_wrap {
+        padding: 0 5%;
+    }
+}
